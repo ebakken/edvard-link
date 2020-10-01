@@ -1,6 +1,11 @@
-# edvard-link
+# Edvard-link - URL-shortener
+
+This is a simple URL shortener build with Vue, Node, TailwindCSS and firebase.
+It runs comfortably on the free firebase quota for most uses.
 
 ## Project setup
+Change the firebase config in `src/firebase.js` with your own config.
+Then simply
 ```
 npm install
 ```
@@ -15,10 +20,7 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+### Deploy the compiled app
 ```
-npm run lint
+firebase deploy
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
