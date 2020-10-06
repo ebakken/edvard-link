@@ -6,9 +6,12 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['Sen'],
+      sans: ['Josefin Sans'],
     },
   },
   variants: {},
   plugins: [],
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
 }
